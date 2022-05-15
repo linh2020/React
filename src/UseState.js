@@ -1,10 +1,6 @@
-// import logo from './logo.svg';
-// import './App.css';
-
 import { useEffect, useState } from "react";
 
-
-function App() {
+function UseState() {
   const [counter, setCounter] = useState(0);
 
   //https://reactjs.org/docs/hooks-reference.html#usestate
@@ -32,4 +28,4 @@ function App() {
   );
 }
 
-export default App;
+export default UseState;

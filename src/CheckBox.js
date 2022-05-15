@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function App() {
+function CheckBox() {
 
   const langs = [
     { id: 1, name: 'C++' },
@@ -38,7 +38,7 @@ function App() {
   );
 }
 
-export default App
+export default CheckBox
 
 // import { useState } from "react";
 

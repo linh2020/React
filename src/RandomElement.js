@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function App() {
+function RandomElement() {
 
   const gifts = ['CPU', 'VGA', 'Memory'];
   const [gift, setGift] = useState("Waiting")
@@ -18,7 +18,7 @@ function App() {
   );
 }
 
-export default App
+export default RandomElement
 
 // import { useState } from "react";
 
