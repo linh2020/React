@@ -19,6 +19,8 @@ function CheckBox() {
     console.log(checked);
   }
 
+  
+
 
   return (
     <div style={{ padding: '20px' }}>
